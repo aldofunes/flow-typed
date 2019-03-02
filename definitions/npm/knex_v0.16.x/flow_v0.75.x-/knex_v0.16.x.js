@@ -209,7 +209,7 @@ declare module 'knex' {
       | {
           database?: string,
           domain?: string,
-          options: {
+          options?: {
             encrypt?: boolean,
           },
           password?: string,
